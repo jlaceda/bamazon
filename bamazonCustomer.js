@@ -31,10 +31,10 @@ function main() {
 			case 'Customer':
 				return customerMenu();
 			case 'Manager':
-				console.log('\Not yet implemented!\n');
+				console.log('\nNot yet implemented!\n');
 				return main();
 			case 'Supervisor':
-				console.log('\Not yet implemented!\n');
+				console.log('\nNot yet implemented!\n');
 				return main();
 			case 'Exit':
 				console.log('\nBye!\n');
@@ -63,7 +63,7 @@ function buy(itemId, amount) {
 				const { product_name, price } = product;
 				console.log(`
 
-Brought ${amount} of ${product_name} for a total of ${price * amount} USD.
+Bought ${amount} of ${product_name} for a total of ${price * amount} USD.
 
 `);
 			}
