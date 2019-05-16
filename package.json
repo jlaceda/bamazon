@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront with MySQL backend.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bamazonCustomer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlaceda/bamazon.git"
+  },
+  "author": "John Michael Laceda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlaceda/bamazon/issues"
+  },
+  "homepage": "https://github.com/jlaceda/bamazon#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "easy-table": "^1.1.1",
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  }
+}
